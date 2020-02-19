@@ -2,9 +2,8 @@ package com.unac.edu.co;
 
 public abstract  class Plato {
 
-    protected String flavor;
-    protected Double price;
-    protected Combo combo;
+    public String flavor;
+    public Double price;
 
     public Plato(){
 
@@ -14,11 +13,19 @@ public abstract  class Plato {
         this.price = price;
     }
 
-    public Combo getCombo() {
-        return combo;
+    public String getFlavor() {
+        return flavor;
     }
 
-    public void setCombo(Combo combo) {
-        this.combo = combo;
+    public void setFlavor(String flavor) {
+        this.flavor = flavor;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 }
