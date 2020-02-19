@@ -14,7 +14,7 @@ public class Combo{
         return platos;
     }
 
-    public void setPlatos(Plato platos) {
+    public void setPlatos(Combo platos) {
         this.platos = platos;
     }
 
