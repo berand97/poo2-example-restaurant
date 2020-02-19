@@ -11,14 +11,18 @@ public class Main {
         Plato pizza1 = new Pizza("Pollo", 15000.0);
         Plato lasagna1 = new Lasagna("veggie", 12000.0);
         Plato pasta1 = new Pasta("italiana", 25000.0);
-        Plato bebida1 = new Bebida("Colombiana", 1800.0, "Personal");
+        Bebida bebida1 = new Bebida("colombiana", "Personal", 1800.0);
         Combo combo1 = new Combo(pizza1, bebida1);
+        Combo combo2 = new Combo(lasagna1,bebida1);
+        Combo combo3 = new Combo(pasta1,bebida1);
 
         List<Combo> combos = new ArrayList<>();
         for (Combo plat : combos) {
-            Combo combo = new Combo();
-            combo.setPlatos(plat);
-            combos.add(combo);
+            Plato comb = new Pizza();
+            comb.setCombo(plat);
+            combos.add(combo1);
+            combos.add(combo2);
+            combos.add(combo3);
 
         }
 

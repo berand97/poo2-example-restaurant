@@ -8,4 +8,5 @@ public class Pizza extends Plato {
     public Pizza(String flavor, Double price) {
         super(flavor, price);
     }
+
 }

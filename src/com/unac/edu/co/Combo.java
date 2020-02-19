@@ -4,7 +4,9 @@ public class Combo{
     private  Plato platos;
     private  Bebida bebidas;
 
+    public  Combo(){
 
+    }
     public Combo(Plato platos, Bebida bebidas) {
         this.platos = platos;
         this.bebidas = bebidas;
@@ -14,7 +16,7 @@ public class Combo{
         return platos;
     }
 
-    public void setPlatos(Combo platos) {
+    public void setPlatos(Plato platos) {
         this.platos = platos;
     }
 

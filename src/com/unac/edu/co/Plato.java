@@ -4,6 +4,7 @@ public abstract  class Plato {
 
     protected String flavor;
     protected Double price;
+    protected Combo combo;
 
     public Plato(){
 
@@ -13,4 +14,11 @@ public abstract  class Plato {
         this.price = price;
     }
 
+    public Combo getCombo() {
+        return combo;
+    }
+
+    public void setCombo(Combo combo) {
+        this.combo = combo;
+    }
 }
