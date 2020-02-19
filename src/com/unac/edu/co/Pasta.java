@@ -1,15 +1,11 @@
 package com.unac.edu.co;
 
-public class Pasta extends Combos {
+public class Pasta extends Plato {
 
-
-    public Pasta(String flavor, double price) {
-        super();
+    public Pasta() {
     }
 
-    @Override
-    public void pedirCombos() {
-
+    public Pasta(String flavor, Double price) {
+        super(flavor, price);
     }
-
 }

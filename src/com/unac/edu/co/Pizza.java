@@ -1,14 +1,11 @@
 package com.unac.edu.co;
 
-public class Pizza extends Combos {
+public class Pizza extends Plato {
 
-    public Pizza(String flavor, double price){
-
-        super();
-
+    public Pizza(){
     }
-    @Override
-    public void pedirCombos() {
 
+    public Pizza(String flavor, Double price) {
+        super(flavor, price);
     }
 }

@@ -1,19 +1,13 @@
 package com.unac.edu.co;
 
-public class Bebida {
-    private String size;
+public class Bebida extends  Plato{
+    protected String size;
 
-
-    public  Bebida(String size, String flavor, double price){
-        super();
-        this.size= size;
+    public Bebida() {
     }
 
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
+    public Bebida(String flavor, Double price, String size) {
+        super(flavor, price);
+        this.size=size;
     }
 }
